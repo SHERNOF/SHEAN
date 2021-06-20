@@ -1,4 +1,4 @@
-# SHEANSection 1
+Section 1
 
 a. Create the Main HTML template and its styling via sass
 b. install react and transfer the index.html content to App.js; remove unnecessary files

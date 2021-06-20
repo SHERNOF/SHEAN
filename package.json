@@ -1,0 +1,12 @@
+{
+  "name": "rcandle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss sass/style.css"
+  },
+  "author": "shernof",
+  "license": "ISC",
+  "dependencies": {}
+}
