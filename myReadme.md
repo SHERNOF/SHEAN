@@ -24,3 +24,17 @@ a. implementation of npm i react-router-dom; it can define multiple routes for t
 b. use <BrowserRouter> to wrap the whole JSX in the App.js
 c. create the screens folder to put the HomeScreen and ProductScreen.js
 d. Transfer the <Product> JSX from App.js to HomeScreen.js
+
+e. Create the JSX Productscreen.js. We used here the array method const candle = data.candles.find((x) => x._id === props.match.params.id)
+f. reuse the <Rating> in the Productscreen.js
+g. take note of the utilization of the candle._id in the App.js, Product.js and Productscreen.js
+
+Section 4 (9) - Start of BE; implementation of basic node.js application
+a. DO npm init in the root folder and create the folder backend; create the server.js afterwards
+b. server.js will contain the code for express.js; express.js is a node package that will allo to create a server. npm install express
+c. use "type": module in package.json to use ES6 module functions
+c. copy data.js in the BE folder and import it in the server.js; return candles array in server.js
+d. we should be able to view the data.js in the browser. use json viewer plugin of chrome
+d. npm install --save-dev nodenon to automate the server; npm start to start and monitor the BE server
+e. create the const port which will define the port in the .env. change the hard coded 5000 as port
+
