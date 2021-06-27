@@ -2,18 +2,17 @@ import express from 'express'
 import data from './data.js'
 
 
-const app = express();
+const app = express()
+
+app.get('/', (req, res) => {
+    res.send(`<h1>Shernof's Server is Running</h1>`)
+})
 
 app.get('/api/candles', (req, res) => {
     res.send(data.candles)
 })
-
-app.get('/', (req,res) => {
-    res.send('Shernof\'s Server is Ready')
-})
-
 const port = process.env.PORT || 5000
-app.listen(port, ()=>{
-    console.log(`Shernof\'s Server is running at Port http://localhost:${port}`)
+app.listen(port, (req, res) => {
+    console.log(`running at http://localhost:${port}`)
 })
 

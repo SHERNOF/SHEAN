@@ -2,7 +2,7 @@ const data = {
     candles: [
         {
             _id: '1',
-            name: 'Black & White Candle',
+            name: 'Black & Whites xCandle',
             category: 'black vessel',
             image: '/images/p11.png',
             price:120,
